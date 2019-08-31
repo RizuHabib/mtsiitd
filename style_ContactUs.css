@@ -1,0 +1,172 @@
+body{
+    margin: 0px;
+    padding:0px;
+    background-image: url("images/bg.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-sizing: border-box;
+
+}
+.content {
+    display:flex;
+
+    justify-content: flex-start;
+    margin: 0px;
+    padding: 0px;
+    /*background: rgba(0,40,40,0.7);*/
+    color: #f1f1f1;
+    width: 100vw;
+    height: 20vh;
+    background-color: #dd4b39;
+}
+.content img {
+    margin-left:10px;
+    margin-top:10px;
+    margin-bottom:10px;
+    border-radius: 50%;
+    width: 200px;
+
+}
+.content div{
+    margin-left:10px;
+    /*margin-top:10px;*/
+}
+.content h1{
+    margin-top: 0px;
+    font-size: 40px;
+
+}
+.content  h2{
+
+    font-size:25px;
+}
+.container{
+    display: flex;
+    position: relative;
+    width: 100vw;
+    /* background: rgba(0, 0, 0, 0.7); */
+    color: #f1f1f1;
+    min-height: calc(100vh - 20vh);
+    /* position: fixed; */
+}
+.navigation{
+    margin: 0;
+    display: inline;
+    width: 12vw;
+    background: rgba(0, 0, 0, 0.5);
+    min-height: 80vh;
+}
+.home
+{
+    color: #f1f1f1;
+    display: inline;
+    width: 88vw;
+    text-align: center;
+    font-size:25px;
+    background: rgba(0, 0, 0, 0.7);
+    min-height: 80vh;
+}
+.home p
+{
+    text-align: justify;
+    padding: 10px;
+}
+.news
+{
+    margin-top: 0;
+    display: inline;
+    /*margin-top: calc(100vh - 190vh);*/
+    width: 300px;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+}
+.news ul
+{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+.news h2
+{
+    margin-top: 0px;
+    color: red;
+    font-size: 40px;
+}
+.navigation ul
+{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    /* background-color: #f1f1f1; */
+}
+
+.navigation ul li a
+{
+    display:block;
+    color: #fff;
+    padding: 8px 16px;
+    text-decoration: none;
+    font-size: 1.4em;
+
+}
+
+/* Change the link color on hover */
+li a:hover {
+    background-color:rgb(143, 9, 9);
+    color: white;
+}
+
+
+.home p{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+hr{
+    box-sizing: border-box;
+    /* padding: 2px 5px 2px 5px;  */
+}
+.icon-bar{
+    background: rgba(0,0,0,0.7);
+    display: flex;
+    justify-content: flex-end;
+}
+.logo{
+    background-color: #1a1a1a;
+    text-align: center;
+}
+.mts-logo{
+    height: 80px;
+    width: 120px;
+}
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+}
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+}
+.fa-google {
+    background: #dd4b39;
+    color: white;
+}
+.logo{
+    width: 100vw;
+}
